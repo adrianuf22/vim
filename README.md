@@ -18,7 +18,7 @@ Arquivo: **~/.bash_aliases** ou **~/.bash_profile**
 alias vim="stty stop '' -ixoff ; vim"
 ````
 
-> (!) Usamos o comando acima para evitar que o terminal congele ao utilizarmos o atalho <ctrl><s> ao salvar.
+> (!) Usamos o comando acima para evitar que o terminal congele ao utilizarmos o atalho <kbd>ctrl</kbd><kbd>s</kbd> para salvar.
 
 2. O arquivo .vimrc deverá ser adicionado na pasta ~/ (Raiz da home do usuário.
 
