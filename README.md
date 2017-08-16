@@ -4,8 +4,8 @@ Estas são as configurações que utilizo no VIM, nada sofisticado mas também n
 ## Configs.
 - Espaço ao inves de tab
 - Largura do tab: 4 espaços
-- Atalho: <ctrl><s> para salvar (Durante inserção)
-- Atalho: <ctrl><i> para salvar e voltar para o modo de inserção (Durante inserção)
+- Atalho: <kbd>ctrl</kbd>+<kbd>s</kbd> para salvar (Durante inserção)
+- Atalho: <kbd>ctrl</kbd>+<kbd>i</kbd> para salvar e voltar para o modo de inserção (Durante inserção)
 - Status line: [ ARQUIVO.EXT [+][RO]            9,14        25% ]
 - Indentação inteligente
 - Highlight ao fechar blocos
@@ -13,7 +13,7 @@ Estas são as configurações que utilizo no VIM, nada sofisticado mas também n
 ## Instalação
 1. Para que todas as configs sejam ativadas corretamente, um alias deverá ser criado:
 
-Arquivo: ~/.bash_aliases ou ~/.bash_profile
+Arquivo: **~/.bash_aliases** ou **~/.bash_profile**
 ````
 alias vim="stty stop '' -ixoff ; vim"
 ````
